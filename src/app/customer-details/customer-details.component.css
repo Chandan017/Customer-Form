@@ -1,0 +1,229 @@
+#headerSection {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#headerSection label {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#headerSection input {
+    flex: 1;
+    min-width: 150px;
+}
+
+#billAdd {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#billAdd label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+#billAdd input {
+    width: 250px;
+
+    padding: 5px;
+}
+
+#shipAdd {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#shipAdd label {
+    display: inline-block;
+    width: 150px;
+
+    text-align: left;
+}
+
+#shipAdd input {
+    width: 250px;
+
+    padding: 5px;
+}
+
+
+#terms {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+#terms div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#terms label {
+    width: 150px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#terms input {
+    flex: 1;
+    padding: 5px;
+}
+
+#Categorization {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 150px;
+    text-align: left;
+}
+
+.form-group select {
+    flex: 1;
+    padding: 5px;
+}
+
+#Consumption {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group2 label {
+    width: 270px;
+    text-align: left;
+}
+
+.form-group2 input {
+    flex: 1;
+    padding: 5px;
+}
+
+#owner-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+
+}
+
+#owner-details .form-group3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#owner-details .form-group3 label {
+    width: 150px;
+
+    text-align: left;
+}
+
+#owner-details .form-group3 input,
+#owner-details .form-group3 select {
+    flex: 1;
+    padding: 5px;
+}
+
+#owner-details .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#owner-details .row .form-group3 {
+    width: 48%;
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+#contactInfo div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#contactInfo label {
+    width: 150px;
+}
+
+#contactInfo input {
+    flex: 1;
+}
+
+
+
+
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #c0c4c8;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+
+}
+
+#billAdd {
+    font-weight: bold;
+    padding-left: 10px;
+    width: 45%;
+    display: inline-block;
+    float: left;
+}
+
+#shipAdd {
+    font-weight: bold;
+    padding-left: 10px;
+    width: 45%;
+    display: inline-block;
+    float: right;
+}
+
+h2 {
+    margin-bottom: 10px;
+    background-color: #c0c4c8;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 45%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #007bff;
+    color: white;
+}
