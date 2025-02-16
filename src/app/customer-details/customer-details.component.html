@@ -2,7 +2,7 @@
   
     <div id="headerSection">
     <label for="developedBy">Developed by:</label>
-    <input type="text" id="developedBy" name="developedBy" [(ngModel)]="customer.developedBy">
+    <input type="text" id="developedBy" name="developedBy" [(ngModel)]="customer.developedBy" placeholder="Name of the sales person">
     
     <label for="date">Date:</label>
     <input type="date" id="date" name="date" [(ngModel)]="customer.date">
@@ -90,15 +90,15 @@
     <div id="terms">
         <div>
             <label for="pAndF">P & F</label>
-            <input type="text" id="pAndF" name="pAndF" [(ngModel)]="customer.pAndF">
+            <input type="text" id="pAndF" name="pAndF" [(ngModel)]="customer.pAndF" placeholder="1% Except for Cylinders above Dia. 100 which is 4%">
         </div>
         <div>
             <label for="gst">GST</label>
-            <input type="text" id="gst" name="gst" [(ngModel)]="customer.gst">
+            <input type="text" id="gst" name="gst" [(ngModel)]="customer.gst" placeholder="Extra @ actual">
         </div>
         <div>
             <label for="freight">Freight</label>
-            <input type="text" id="freight" name="freight" [(ngModel)]="customer.freight">
+            <input type="text" id="freight" name="freight" [(ngModel)]="customer.freight" placeholder="Extra @ actual">
         </div>
         <div>
             <label for="paymentTerms">Payment Terms</label>
