@@ -5,7 +5,7 @@ import { CustomerListComponent } from "./customer-list/customer-list.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CustomerListComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
